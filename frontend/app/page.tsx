@@ -568,7 +568,7 @@ export default function Home() {
   const [mascotKey, setMascotKey] = useState(0);
   const [statsOn, setStatsOn]     = useState(false);
   const [viewMode, setViewMode]   = useState<"quick" | "full">("quick");
-  const [lang, setLang]           = useState<Lang>("es");
+  const [lang, setLang]           = useState<Lang>("en");
   const [copied, setCopied]       = useState(false);
   const [shared, setShared]       = useState(false);
   const [recent, setRecent]       = useState<RecentItem[]>([]);
